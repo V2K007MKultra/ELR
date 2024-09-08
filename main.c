@@ -30,7 +30,7 @@
 MPU6050_t MPU6050;
 /* USER CODE END Includes */
 #define CRSF_FRAME_SIZE    26
-#define ELRS_ADDRESS       0xCE
+#define ELRS_ADDRESS       0xEE
 #define TYPE_CHANNELS       0x16
 volatile uint8_t dma_transfer_complete = 0;
 uint8_t crsfFrame[CRSF_FRAME_SIZE];
