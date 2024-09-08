@@ -179,7 +179,7 @@ int main(void)
 	  MPU6050_Read_All(&hi2c1, &MPU6050);
 
 	  int crsfv=map(MPU6050.KalmanAngleX,-90,90,50,250);
-	  Channels[1]=crsfv+123;
+	  Channels[1]=crsfv;
 	  Channels[2]=100;
 	  Channels[3]=100;
     /* USER CODE END WHILE */
